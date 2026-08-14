@@ -1,16 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    /*
-    ==========================================
-    VECTORQ HOME PAGE JAVASCRIPT
-    ==========================================
-    */
-
-
-    // ==========================================
-    // PERFORMANCE CAR PARALLAX
-    // ==========================================
-
     const hero = document.querySelector(".hero-section");
     const car = document.querySelector(".car-scene");
 
@@ -46,11 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     }
-
-
-    // ==========================================
-    // SERVICE CARD SCROLL REVEAL
-    // ==========================================
 
     const serviceCards =
         document.querySelectorAll(".service-card");
@@ -93,11 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-
-    // ==========================================
-    // BUTTON CLICK EFFECT
-    // ==========================================
-
     const buttons =
         document.querySelectorAll(
             ".btn, .cta-button"
@@ -139,11 +118,6 @@ document.addEventListener("DOMContentLoaded", function () {
         );
 
     });
-
-
-    // ==========================================
-    // SMOOTH INTERNAL LINKS
-    // ==========================================
 
     const internalLinks =
         document.querySelectorAll(
@@ -188,16 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    // ==========================================
-    // VECTORQ CONSOLE MESSAGE
-    // ==========================================
-
-    console.log(
-        "VECTORQ Auto Parts & Performance"
-    );
-
-    console.log(
-        "Built to Drive. Tuned to Last."
-    );
+    console.log("%c VECTORQ Auto Parts & Performance ", "font-weight: bold; font-size: 14px; color: #d71920; background: #0a0a0a; padding: 4px 10px; border-left: 3px solid #d71920;");
+    console.log("%c Built to Drive. Tuned to Last. ", "font-size: 11px; color: #888; background: #0a0a0a; padding: 2px 10px;");
 
 });
