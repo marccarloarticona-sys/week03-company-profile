@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#444" />
+      <stop offset="1" stop-color="#111" />
+    </linearGradient>
+  </defs>
+
+  <!-- background transparent -->
+  <rect width="100%" height="100%" fill="none" />
+
+  <!-- car silhouette -->
+  <path d="M80 380 C140 300, 220 260, 360 260 C460 260, 540 280, 640 300 C720 315, 820 320, 940 320 C980 320, 1020 330, 1080 360 L1100 380 L1120 380 L1120 420 L1080 420 C1060 420, 1010 420, 980 420 C940 420, 900 420, 860 420 C820 420, 780 420, 740 420 C700 420, 660 420, 620 420 C580 420, 540 420, 500 420 C460 420, 420 420, 380 420 C330 420, 300 420, 260 420 C220 420, 180 420, 140 420 L120 420 L100 400 Z"
+        fill="url(#g)" stroke="#000" stroke-opacity="0.35" stroke-width="2" />
+
+  <!-- roof/window area -->
+  <path d="M320 280 C380 240, 460 240, 540 260 C580 270, 640 280, 700 290 C740 295, 820 305, 900 305"
+        fill="none" stroke="#0b0b0b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.15" />
+
+  <!-- wheels -->
+  <circle cx="300" cy="440" r="50" fill="#0b0b0b" />
+  <circle cx="880" cy="440" r="60" fill="#0b0b0b" />
+  <circle cx="300" cy="440" r="28" fill="#666" />
+  <circle cx="880" cy="440" r="34" fill="#666" />
+
+  <!-- subtle highlight -->
+  <path d="M120 370 C200 330, 320 300, 440 300 C540 300, 640 310, 740 330 C820 345, 920 350, 1060 360"
+        fill="none" stroke="#fff" stroke-opacity="0.06" stroke-width="20" stroke-linecap="round" />
+
+  <!-- branding text -->
+  <text x="140" y="360" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#d71920">VECTORQ</text>
+  <text x="140" y="410" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#fff">PORSCHE</text>
+
+</svg>
