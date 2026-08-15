@@ -439,7 +439,7 @@ Laravel. (n.d.). *Laravel 12.x documentation*. Laravel.
 https://laravel.com/docs/12.x
 
 MDN Web Docs. (n.d.). *MDN Web Docs*. Mozilla.  
-https://developer.mozilla.org/
+https://developer.mozilla.org/en-US/
 
 PHP Documentation Group. (n.d.). *PHP manual*. PHP.  
 https://www.php.net/manual/en/
