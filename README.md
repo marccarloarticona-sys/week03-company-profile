@@ -73,10 +73,6 @@ The diagram below shows how a request moves through the VECTORQ Laravel applicat
 
 ![VECTORQ Laravel MVC Architecture](documentation/Architecture%20diagram.png)
 
-The basic request flow is:
-
-**Client / Browser → Route → Controller → Blade View → HTML Response → Client / Browser**
-
 ---
 
 ## 5. Laravel Routing
